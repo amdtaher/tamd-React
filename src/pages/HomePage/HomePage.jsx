@@ -8,19 +8,23 @@ import Projects from '../../components/Projects/Projects'
 import Testimonials from '../../components/Testimonials/Testimonials'
 import Contact from '../../components/Contact/Contact'
 import ContactUs from '../../components/ContactUs/ContactUs'
+import Banner from '../../components/Banner/Banner'
+import ThemeSwitcher from '../../components/ThemeSwitcher/ThemeSwitcher'
 
 const HomePage = () => {
   return (
     <>
     <NavigationBar/>
+    <Banner/>
+    {/* <ThemeSwitcher/> */}
     <About/>
     <Services/>
-    {/* <Skills/> */}
     <Projects/>
     <Testimonials/>
     <Contact/>
-    {/* <ContactUs/> */}
     <Footer/>
+    {/* <Skills/> */}
+    {/* <ContactUs/> */}
     </>
   )
 }

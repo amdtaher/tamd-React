@@ -59,10 +59,9 @@ const SideBar = () => {
     <>
       <div className="container p-0">   
         <Menu styles={ styles } className="text-lg font-semibold">
-          <NavLink to='/' className="hover:bg-hover" activeClassName="active">Home</NavLink>
-          <NavLink to='/about' className="hover:bg-hover">About</NavLink>
-          <NavLink to='/projects' className="hover:bg-hover">Projects</NavLink>
-          <NavLink to='/contact' className="hover:bg-hover">Contact</NavLink>
+          <NavLink to='/' className="hover:bg-primary" activeClassName="active">Home</NavLink>
+          <NavLink to='/projects' className="hover:bg-primary">Projects</NavLink>
+          <NavLink to='/contact' className="hover:bg-primary">Contact</NavLink>
         </Menu>
       </div>
     </>

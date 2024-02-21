@@ -20,7 +20,7 @@ const Skills = () => {
     <>
       {/* Skills Section */}
       <div className="container mx-auto py-16 md:py-20">
-        <div className="grid grid-cols-12 grid-flow-row gap-5 px-5 sm:px-0">
+        <div className="grid grid-cols-12 grid-flow-row gap-5">
           {/* Section Title */}
           <div className="col-span-12 uppercase border-b border-grey md:border-none pb-2.5 mb-2.5">
             <h4 className='relative font-black text-3xl md:text-4xl lg:text-5xl mb-2'>my capability (still going) 
